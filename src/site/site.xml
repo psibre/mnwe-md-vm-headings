@@ -2,15 +2,15 @@
 <project name="Test">
   <body>
     <menu name="Navigation">
-      <item name="Apt" href="apt/pageA.html" collapse="false">
-        <item name="Page A" href="apt/pageA.html"/>
-        <item name="Page C" href="apt/pageC.html"/>
+      <item name="Apt" href="apt/static.html" collapse="false">
+        <item name="Static" href="apt/static.html"/>
+        <item name="Velocity" href="apt/velocity.html"/>
       </item>
-      <item name="Markdown" href="markdown/pageA.html" collapse="false">
-        <item name="Page A" href="markdown/pageA.html"/>
-        <item name="Page B" href="markdown/pageB.html"/>
-        <item name="Page C" href="markdown/pageC.html"/>
-        <item name="Page D" href="markdown/pageD.html"/>
+      <item name="Markdown" href="markdown/atx.html" collapse="false">
+        <item name="atx headings" href="markdown/atx.html"/>
+        <item name="setext headings" href="markdown/setext.html"/>
+        <item name="atx headings with Velocity" href="markdown/atx-velo.html"/>
+        <item name="setext headings with Velocity" href="markdown/setext-velo.html"/>
       </item>
     </menu>
     <menu ref="reports"/>
