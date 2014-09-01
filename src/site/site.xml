@@ -2,14 +2,15 @@
 <project name="Test">
   <body>
     <menu name="Navigation">
+      <item name="About" href="index.html"/>
       <item name="Apt" href="apt/static.html" collapse="false">
         <item name="Static" href="apt/static.html"/>
         <item name="Velocity" href="apt/velocity.html"/>
       </item>
       <item name="Markdown" href="markdown/atx.html" collapse="false">
         <item name="atx headings" href="markdown/atx.html"/>
-        <item name="setext headings" href="markdown/setext.html"/>
         <item name="atx headings with Velocity" href="markdown/atx-velo.html"/>
+        <item name="setext headings" href="markdown/setext.html"/>
         <item name="setext headings with Velocity" href="markdown/setext-velo.html"/>
       </item>
     </menu>
