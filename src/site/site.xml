@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <project name="Test">
   <body>
-    <menu name="Navigation" inherit="top">
+    <menu name="Navigation">
       <item name="Apt" href="apt/pageA.html" collapse="false">
         <item name="Page A" href="apt/pageA.html"/>
-        <item name="Page B" href="apt/pageB.html"/>
         <item name="Page C" href="apt/pageC.html"/>
-        <item name="Page D" href="apt/pageD.html"/>
       </item>
       <item name="Markdown" href="markdown/pageA.html" collapse="false">
         <item name="Page A" href="markdown/pageA.html"/>
@@ -15,5 +13,6 @@
         <item name="Page D" href="markdown/pageD.html"/>
       </item>
     </menu>
+    <menu ref="reports"/>
   </body>
 </project>
