@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Test &#x2013; About</title>
+    <title>Test &#x2013; Test site for Markdown Velocity Macro issue</title>
     <style type="text/css" media="all">
       @import url("./css/maven-base.css");
       @import url("./css/maven-theme.css");
@@ -17,7 +17,7 @@
   <body class="composite">
     <div id="banner">
                     <div id="bannerLeft">
-                test
+                mnwe-md-vm-headings
                 </div>
                     <div class="clear">
         <hr/>
@@ -43,6 +43,9 @@
                     
                                 <h5>Navigation</h5>
                   <ul>
+                  <li class="none">
+            <strong>About</strong>
+          </li>
                                                                                 <li class="expanded">
                           <a href="apt/static.html" title="Apt">Apt</a>
                     <ul>
@@ -61,10 +64,10 @@
                           <a href="markdown/atx.html" title="atx headings">atx headings</a>
             </li>
                       <li class="none">
-                          <a href="markdown/setext.html" title="setext headings">setext headings</a>
+                          <a href="markdown/atx-velo.html" title="atx headings with Velocity">atx headings with Velocity</a>
             </li>
                       <li class="none">
-                          <a href="markdown/atx-velo.html" title="atx headings with Velocity">atx headings with Velocity</a>
+                          <a href="markdown/setext.html" title="setext headings">setext headings</a>
             </li>
                       <li class="none">
                           <a href="markdown/setext-velo.html" title="setext headings with Velocity">setext headings with Velocity</a>
@@ -95,9 +98,8 @@
     </div>
     <div id="bodyColumn">
       <div id="contentBox">
-        <div class="section">
-<h2><a name="About_test"></a>About test</h2><a name="About_test"></a>
-<p>There is currently no description associated with this project.</p></div>
+        <h1>Test site for Markdown Velocity Macro issue</h1>
+<p>All pages should render to identical HTML, but notice the <a href="markdown/atx-velo.html"><b>missing headings</b> when Markdown with atx-style headings is filtered using Velocity Macros</a>!</p>
       </div>
     </div>
     <div class="clear">
