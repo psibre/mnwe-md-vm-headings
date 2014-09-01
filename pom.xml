@@ -5,6 +5,7 @@
 	<groupId>io.github.psibre</groupId>
 	<artifactId>mnwe-md-vm-headings</artifactId>
 	<version>1.0</version>
+	<description>Test project for Markdown Velocity Macro issue MSITE-728</description>
 	<url>http://psibre.github.io/mnwe-md-vm-headings/</url>
 	<scm>
 		<url>https://github.com/psibre/mnwe-md-vm-headings</url>
